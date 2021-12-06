@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/52eaf99774.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Marvel Video</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="navbar-containter">
+        <div class="logo-container"><h1 class="logo">Movie App</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Home</li>
+            <li class="menu-list-item">Movies</li>
+            <li class="menu-list-item">Series</li>
+            <li class="menu-list-item">Popular</li>
+            <li class="menu-list-item">Trends</li>
+          </ul>
+        </div>
+        <div class="mode-container">
+          <div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div id="content-container">
+        <div class="featured-content featured1">
+          <img src="img/cmarvel_title.png" alt="" class="featured-title" />
+          <p class="featured_desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            aliquid amet at cumque, dolor ex incidunt iure neque nesciunt non
+            quae quaerat quasi soluta, temporibus voluptatem! Distinctio ex
+            numquam suscipit.
+          </p>
+          <button class="featured-button">Watch now!</button>
+        </div>
+        <div class="featured-content featured2">
+          <img src="img/venom2-title.png" alt="" class="featured-title" />
+          <p class="featured_desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            aliquid amet at cumque, dolor ex incidunt iure neque nesciunt non
+            quae quaerat quasi soluta, temporibus voluptatem! Distinctio ex
+            numquam suscipit.
+          </p>
+          <button class="featured-button">Watch now!</button>
+        </div>
+        <div class="featured-content featured3">
+          <img
+            src="img/avengersendgametitle.png"
+            alt=""
+            class="featured-title"
+          />
+          <p class="featured_desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            aliquid amet at cumque, dolor ex incidunt iure neque nesciunt non
+            quae quaerat quasi soluta, temporibus voluptatem! Distinctio ex
+            numquam suscipit.
+          </p>
+          <button class="featured-button">Watch now!</button>
+        </div>
+        <div class="featured-content featured4">
+          <img src="img/gotgtitle.png" alt="" class="featured-title" />
+          <p class="featured_desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            aliquid amet at cumque, dolor ex incidunt iure neque nesciunt non
+            quae quaerat quasi soluta, temporibus voluptatem! Distinctio ex
+            numquam suscipit.
+          </p>
+          <button class="featured-button">Watch now!</button>
+        </div>
+        <div class="featured-content featured5">
+          <img src="img/deadpooltitle.png" alt="" class="featured-title" />
+          <p class="featured_desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            aliquid amet at cumque, dolor ex incidunt iure neque nesciunt non
+            quae quaerat quasi soluta, temporibus voluptatem! Distinctio ex
+            numquam suscipit.
+          </p>
+          <button class="featured-button">Watch now!</button>
+        </div>
+      </div>
+      <i class="fas fa-chevron-right arrow-featured-content"></i>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Now Playing Movies</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list"></div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Best Fantasy Movies</h1>
+        <div class="movie-list-wrapper">
+          <div class="movie-list"></div>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
